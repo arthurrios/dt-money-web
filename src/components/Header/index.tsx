@@ -1,12 +1,14 @@
-import { HeaderContainer, HeaderContent, NewTransactionButton } from './styles'
+import { HeaderContainer, HeaderContent } from './styles'
 import logoImg from '../../assets/logo.svg'
+import { NewTransactionModal } from '../NewTransactionModal'
 
 export function Header() {
   return (
     <HeaderContainer>
       <HeaderContent>
         <img src={logoImg} alt="" />
-        <NewTransactionButton>New transaction</NewTransactionButton>
+
+        <NewTransactionModal />
       </HeaderContent>
     </HeaderContainer>
   )
