@@ -32,12 +32,12 @@ export function NewTransactionModal() {
             <input type="text" placeholder="Category" required />
 
             <TransactionType>
-              <TransactionTypeButton variant="income" value="income">
+              <TransactionTypeButton $variant="income" value="income">
                 <ArrowCircleUp size={24} />
                 Income
               </TransactionTypeButton>
 
-              <TransactionTypeButton variant="outcome" value="outcome">
+              <TransactionTypeButton $variant="outcome" value="outcome">
                 <ArrowCircleDown size={24} />
                 Expense
               </TransactionTypeButton>
