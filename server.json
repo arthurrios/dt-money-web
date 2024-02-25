@@ -6,7 +6,7 @@
       "type": "income",
       "category": "Sale",
       "price": 12000,
-      "createAt": "2024-02-25T13:18:33.134Z"
+      "createdAt": "2024-02-25T13:18:33.134Z"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "type": "outcome",
       "category": "Food",
       "price": 13.49,
-      "createAt": "2024-02-25T13:12:33.134Z"
+      "createdAt": "2024-02-25T13:12:33.134Z"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "type": "outcome",
       "category": "Education",
       "price": 1120,
-      "createAt": "2024-02-25T13:10:33.134Z"
+      "createdAt": "2024-02-25T13:10:33.134Z"
     }
   ]
 }
